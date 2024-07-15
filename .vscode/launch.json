@@ -1,0 +1,29 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "env": {
+                "SPRING_PROFILES_ACTIVE": "prd",
+                "PGDATABASE":"railway",
+                "PGHOST":"viaduct.proxy.rlwy.net" ,
+                "PGPASSWORD":"OEmKjOMlFECjWVvDowqKHhPJRAWLDqKN", 
+                "PHPORT": "36029",
+            }
+
+        },
+        {
+            "type": "java",
+            "name": "SantanderDevApplication",
+            "request": "launch",
+            "mainClass": "me.dio.SantanderDevApplication",
+            "projectName": "Dio_Santander-dev-2024"
+        }
+    ]
+}
