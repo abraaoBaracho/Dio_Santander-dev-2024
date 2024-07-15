@@ -12,4 +12,3 @@ spring:
       allowed-origins: "*"
       allowed-methods: "*"
       allowed-headers: "*"
-      allow-credentials: true
