@@ -15,7 +15,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("*")
+                        .allowedOrigins("https://web-sdw-2024.up.railway.app")
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);
